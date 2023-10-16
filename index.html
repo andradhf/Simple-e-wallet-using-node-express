@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan Final Assessment JS</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<fieldset>
+		<legend>Learn Express JS</legend>
+		<div>
+			<input type="hidden" id="id" value="" />
+			<input type="text" id="name">
+			<input type="number" id="age">
+			<button id="upsert" onclick="fUpsert()">
+				Action
+			</button>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>List Data</legend>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Actions</th>
+				</tr>				
+			</thead>
+			<tbody id="items"></tbody>
+		</table>
+	</fieldset>
+
+	<script type="text/javascript" src="js/loader.js"></script>
+</body>
+</html>
